@@ -1,0 +1,33 @@
+{
+  "name": "webdriverioexample",
+  "version": "1.0.0",
+  "description": "This repo will be use as example of testing using webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-arias/webdriverIOExample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-arias/webdriverIOExample/issues"
+  },
+  "homepage": "https://github.com/a-arias/webdriverIOExample#readme",
+  "devDependencies": {
+    "@percy/webdriverio": "^1.0.4",
+    "@wdio/cli": "^6.6.2",
+    "@wdio/local-runner": "^6.6.2",
+    "@wdio/mocha-framework": "^6.6.0",
+    "@wdio/spec-reporter": "^6.6.0",
+    "@wdio/sync": "^6.6.0",
+    "chai": "^4.2.0",
+    "chromedriver": "87.0.7",
+    "wdio-chromedriver-service": "^6.0.4"
+  },
+  "dependencies": {
+    "chai-webdriverio": "^1.0.0"
+  }
+}
